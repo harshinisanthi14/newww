@@ -1,6 +1,6 @@
 #container{
     border:2px solid;
 }
-#container p{
+#container > p{
     background-color:yellow;
 }
