@@ -2,7 +2,7 @@
     width:200px;
     height:200px;
     background-color:red;
-    position:fixed;
+    position:sticky;
 }
 #box2{
     width:100px;
