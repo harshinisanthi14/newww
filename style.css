@@ -1,8 +1,28 @@
-#greetings p{
-    background-color:hsl(199, 100%, 50%);
-    padding:10px;
-    display:none;
+h1::first-letter{
+    font-size:2em;
+    font-style:italic;
 }
-#greetings:hover p{
-    display:block;
+p::first-line{
+    background-color:yellow;
+}
+p::selection{
+    color:white;
+    background-color:rgb(95, 233, 95);
+}
+#fruits li::before{
+   
+}
+#apple::after{
+    content:"🍎";
+}
+#orange::after{
+    content:"🍊";
+}
+#banana::after{
+    content:"🍌";
+}
+#fruits li::marker{
+    content:"✔";
+    font-size:2em;
+    color:green;
 }
