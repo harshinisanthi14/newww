@@ -1,15 +1,10 @@
-body{
-    background-color:rgb(53, 53, 53);
+h1{
+    font-family:verdana, arial;
 }
-#p1{
-    color:rgb(236, 121, 121);
-}
-#p2{
-    color:#3be63b;
-}
-#p3{
-    color:hsl(350, 94%, 66%);
-}
-#p4{
-    color:hwb(60 8% 20%);
+p{
+    font-family: 'lucida sans regular';
+    font-size:2em;
+    font-weight:semi-bold;
+    font-style:italic;
+
 }
