@@ -1,6 +1,6 @@
-li:hover{
-    background-color:hsl(60, 95%, 77%);
+li:nth-child(even){
+    background-color:hsl(60, 100%, 78%);
 }
-li:not(:hover){
-    background-color:rgb(160, 160, 160);
+li:nth-child(5){
+    background-color:hsl(60, 100%, 78%);
 }
