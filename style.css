@@ -1,11 +1,10 @@
 h1{
-    border:3px solid violet;
-    border-radius:10px;
+    text-shadow:3px 3px 5px rgb(241, 91, 91) , -3px -3px 5px rgb(84, 84, 223) ;
 }
-p{
-    border-bottom:3px solid #eb4949;
-    border-top:3px solid hsl(120, 98%, 68%);
-    border-left:3px solid hsl(39, 69%, 55%);
-    border-right:3px solid hsl(60, 91%, 55%);
-    border-radius:10px;
+#box1{
+    width:100px;
+    height:100px;
+    background-color:hsl(0, 0%, 53%);
+    box-shadow:3px 3px 5px;
+    
 }
