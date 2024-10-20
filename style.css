@@ -1,6 +1,8 @@
-li:nth-child(even){
-    background-color:hsl(60, 100%, 78%);
+#greetings p{
+    background-color:hsl(199, 100%, 50%);
+    padding:10px;
+    display:none;
 }
-li:nth-child(5){
-    background-color:hsl(60, 100%, 78%);
+#greetings:hover p{
+    display:block;
 }
