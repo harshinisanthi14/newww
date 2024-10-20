@@ -1,12 +1,15 @@
 body{
-    background-color:black;
+    background-color:rgb(53, 53, 53);
 }
-h1{
-    color:white;
+#p1{
+    color:rgb(236, 121, 121);
 }
-.even{
-    color:green;
+#p2{
+    color:#3be63b;
 }
-.odd{
-    color:pink;
+#p3{
+    color:hsl(350, 94%, 66%);
+}
+#p4{
+    color:hwb(60 8% 20%);
 }
