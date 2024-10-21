@@ -3,7 +3,7 @@
     border:10px solid black;
     height:90vh;
     flex-wrap:wrap;
-    align-content:space-between;
+  
    
 }
 .box{
@@ -17,10 +17,11 @@
 #box1{
     
     background-color:hsl(0, 81%, 62%);
-    order:1;
+    align-self:center;
 }
 #box2{
     background-color:hsl(128, 67%, 51%);
+    align-self:center;
 }
 
 #box3{
