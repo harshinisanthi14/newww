@@ -1,31 +1,26 @@
-.icons{
+.container{
+    display:flex;
+    flex-direction:column-reverse;
+
+}
+.box{
+    width:150px;
+    height:150px;
+    font-size:8em;
+    border-radius:10px;
     text-align:center;
+    
 }
-.icons a{
-    text-decoration:none;
-    margin:20px;
+#box1{
+    background-color:hsl(0, 81%, 62%);
 }
-.fa-solid.fa-house.fa-5x{
-    color:rgb(102, 102, 102);
+#box2{
+    background-color:hsl(128, 67%, 51%);
 }
-.fa-solid.fa-house.fa-5x:hover{
-    color:rgb(102, 102, 122);
+
+#box3{
+    background-color:hsl(59, 88%, 55%);
 }
-.fa-brands.fa-twitter.fa-5x{
-    color:aqua;
-}
-.fa-brands.fa-twitter.fa-5x:hover{
-    color:hsl(180, 62%, 75%);
-}
-.fa-brands.fa-instagram.fa-5x{
-    color:rgb(134, 63, 134);
-}
-.fa-brands.fa-instagram.fa-5x:hover{
-    color:rgb(155, 112, 155);
-}
-.fa-brands.fa-youtube.fa-5x{
-    color:red;
-}
-.fa-brands.fa-youtube.fa-5x:hover{
-    color:rgb(241, 152, 152);
+#box4{
+    background-color:hsl(239, 79%, 44%);
 }
