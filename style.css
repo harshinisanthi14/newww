@@ -5,6 +5,6 @@
     font-size:13em;
     text-align:center;
     background-color:hsl(120, 97%, 64%);
-    transform:scaleY(5)
+    transform:skew(135deg)
    
 }
