@@ -1,7 +1,7 @@
 body{
     background-color:black;
 }
-#box{
+img{
     width:250px;
     height:250px;
     background-color:hsl(0, 83%, 68%);
@@ -13,7 +13,6 @@ body{
     animation-direction:normal;
     animation-play-state:running;
     animation-timing-function: steps(1);
-   
 }
 
 
