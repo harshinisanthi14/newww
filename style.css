@@ -1,19 +1,31 @@
-.pagination{
-    text-align:center;
+.dropdown button{
+    background-color:hsl(0, 0%, 80%);
+    color:white;
+    padding:10px 15px;
+    border:none;
+    cursor:pointer;
 }
-.pagination a{
+.dropdown a{
+    display:block;
     color:black;
     text-decoration:none;
-    padding:10px;
-
+    padding:10px 15px;
 }
-.pagination a.active{
-    background-color:hsl(120, 81%, 55%);
-    border-radius:5px;
-    font-size:bold;
+.dropdown .content{
+    display:none;
+    background-color:hsl(0, 0%, 95%);
+    position:absolute;
+    min-width:100px;
+    box-shadow:2px 2px 4px black;
 }
-.pagination a:hover:not(.active){
-    background-color:rgb(187, 183, 183);
-    border-radius:5px;
+.dropdown:hover .content{
+    display:block;
 
+    background-color:hsl(0, 2%, 84%);
+}
+.dropdown:hover button{
+    background:hsl(0, 6%, 90%);
+}
+.dropdown a:hover{ 
+    background-color:hsl(0, 1%, 61%);
 }
