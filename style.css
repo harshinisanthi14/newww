@@ -1,6 +1,8 @@
 .container{
     display:flex;
-    flex-direction:column-reverse;
+    border:10px solid black;
+    height:90vh;
+    align-items:baseline;
 
 }
 .box{
