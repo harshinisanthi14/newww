@@ -2,8 +2,10 @@
     display:flex;
     border:10px solid black;
     height:90vh;
-    align-items:baseline;
-
+    flex-wrap:wrap;
+    align-content:space-between;
+    column-gap:1em;
+    row-gap:1em;
 }
 .box{
     width:150px;
