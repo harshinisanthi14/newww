@@ -36,3 +36,8 @@ footer{
     text-align:center;
     padding:25px;
 }
+@media screen and (max-width:600px){
+    aside,section,article{
+        width:100%;
+    }
+}
