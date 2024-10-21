@@ -1,18 +1,15 @@
-.gallery{
-    display:inline-block;
-    border:1px solid rgb(156, 156, 156);
-    margin:5px;
-    width:200px;
-
-}
-.gallery .description{
-    padding:10px;
+.icons{
     text-align:center;
 }
-.gallery:hover{
-    border:1px solid rgb(56, 56, 56);
+.fa-solid.fa-house.fa-5x{
+    color:rgb(102, 102, 102);
 }
-.gallery img{
-    width:100%;
-    height:auto;
+.fa-brands.fa-twitter.fa-5x{
+    color:aqua;
+}
+.fa-brands.fa-instagram.fa-5x{
+    color:rgb(134, 63, 134);
+}
+.fa-brands.fa-youtube.fa-5x{
+    color:red;
 }
